@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('~/static/fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('~/static/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('~/static/fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('~/static/fonts/Gilroy-Regular.woff') format('woff'),
+        url('~/static/fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('~/static/fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('~/static/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('~/static/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('~/static/fonts/Gilroy-Bold.woff') format('woff'),
+        url('~/static/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('~/static/fonts/Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('~/static/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('~/static/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('~/static/fonts/Roboto-Regular.woff') format('woff'),
+        url('~/static/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('~/static/fonts/Roboto-Bold.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('~/static/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('~/static/fonts/Roboto-Bold.woff2') format('woff2'),
+        url('~/static/fonts/Roboto-Bold.woff') format('woff'),
+        url('~/static/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

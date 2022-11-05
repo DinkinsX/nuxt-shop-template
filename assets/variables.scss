@@ -1,0 +1,184 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@import 'global_vars.scss';
+@import 'media.scss';
+@import 'fonts.scss';
+@import 'hover.scss';
+
+//Main styles
+html {
+  font-size: 16px;
+}
+html .theme--light.v-application, .theme--light.v-card {
+  color: #252525;
+}
+html .theme--light.v-application a {
+  color: $secondary-color;
+}
+.v-application p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  line-height: 1;
+} 
+h2, h3 {
+  line-height: 1.2;
+}
+.v-application--wrap {
+  min-height: unset !important;
+}
+.v-btn {
+  letter-spacing: normal !important;
+}
+.v-btn__content {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.container {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 0;
+  max-width: unset;
+}
+.content-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.block-padding {
+  margin-bottom: 120px;
+}
+//Main styles
+
+
+@include xl {
+  html {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 52px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  a {
+    font-size: 24px;
+  }
+  .btn-a.v-btn.v-size--default {
+    font-size: 24px;
+  }
+  .card-title {
+    font-size: 24px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+  .card-small-text {
+    font-size: 16px;
+  }
+}
+
+@include lg {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .btn-a.v-btn.v-size--default {
+    font-size: 18px;
+  }
+  .card-small-text {
+    font-size: 14px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+  .block-padding {
+    margin-bottom: 96px;
+  }
+  .content-padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+@include md {
+  .container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@include sm {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .container {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .block-padding {
+    margin-bottom: 75px;
+  }
+  .content-padding {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+@include xs {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .content-padding {
+    padding-top: 75px;
+    padding-bottom: 55px;
+  }
+}
+
+//Text color
+.primary-text {
+  color: $primary-color;
+}
+.sub-primary-text {
+  color: $secondary-color;
+}
+a.href-primary {
+  color: $primary-color;
+}
+//Text color
+
+
+//Main custom styles
+
+//Main custom styles
+
+
+@import '~vuetify/src/styles/styles.sass';

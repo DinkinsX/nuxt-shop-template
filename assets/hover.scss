@@ -1,0 +1,36 @@
+@mixin hover-active($color, $hover-color) {
+    color: $color !important;
+    &:hover{
+        color: $hover-color !important;
+    }
+    @include hover-transition(.5s);
+}
+
+@mixin hover-active-svg($color) {
+    &:hover{
+        fill: $color !important;
+    }
+    @include hover-transition(.5s);
+}
+
+@mixin hover-active-btn($color, $hover-color, $text-color, $text-color-hover) {
+    background-color: $color !important;
+    color: $text-color !important;
+    &:hover{
+        background-color: $hover-color !important;
+        color: $text-color-hover !important;
+    }
+    @include hover-transition(.5s);
+}
+
+@mixin hover-transition($x){
+    -webkit-transition: $x;
+    -moz-transition: $x;
+    -ms-transition: $x;
+    -o-transition: $x;
+    transition: $x;
+}
+
+a, svg, path, ellipse {
+    @include hover-transition(.5s);
+}
